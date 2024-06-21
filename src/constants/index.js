@@ -11,7 +11,12 @@ import blog6 from "../assets/blogs/blog6.webp";
 import blog7 from "../assets/blogs/blog7.webp";
 import { Link } from "react-router-dom";
 
-export const HERO_CONTENT = `Enthusiastic undergraduate with a strong work ethic, passionate about learning and teamwork. Dedicated to achieving goals through hard work and collaboration, Committed to pursuing a career in Software Engineering`;
+export const HERO_CONTENT = `Motivated and enthusiastic undergraduate with a robust work ethic and a
+ deep passion for coding and software development. Driven by a
+ commitment to excellence, I thrive in collaborative environments and am
+ dedicated to achieving goals through persistent hard work and teamwork.
+ I am eager to leverage my skills and passion to pursue a rewarding career
+ as a Software Engineer.`;
 
 export const ABOUT_TEXT = `Enthusiastic undergraduate with a strong work ethic, passionate about learning and teamwork. Dedicated to achieving goals through hard work and collaboration, Committed to pursuing a career in Software Engineering`;
 

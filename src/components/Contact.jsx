@@ -45,14 +45,14 @@ const ContactPage = () => {
         {/* Contact Details Section */}
         <div className="md:w-2/4">
           
-        <ul className="space-y-4">
-            <li className="flex items-center">
+        <ul className="space-y-4 text-center">
+            <li className="flex items-center justify-center">
               <FaUser className="mr-2" /> Dilka Sithari
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center justify-center">
               <FaEnvelope className="mr-2" />sitharidilka@gmail.com
             </li>
-            <li className="flex items-center">
+            <li className="flex items-center justify-center">
               <FaMapMarkerAlt className="mr-2" />Monaragala, Sri Lanka
             </li>
           </ul>
