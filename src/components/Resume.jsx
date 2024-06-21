@@ -12,7 +12,7 @@ const Resume = () => {
 
       <div className="iframe-container">
         <iframe
-          src="../../public/Dilka Sithari.pdf"
+          src="/Dilka%20Sithari.pdf"
           width="100%"
           height="600px"
           style={{
