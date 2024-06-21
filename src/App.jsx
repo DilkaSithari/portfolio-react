@@ -9,6 +9,8 @@ import Projects from "./components/Projects";
 import Contact from "./components/Contact";
 import Blogs from "./components/Blogs";
 import Footer from './components/Footer';
+import Resume from './components/Resume';
+
 
 const App = () => {
   return (
@@ -31,6 +33,7 @@ const App = () => {
             <Route path="/projects" element={<Projects />} />
             <Route path="/contact" element={<Contact />} />
             <Route path="/blogs" element={<Blogs />} />
+            <Route path="/resume" element={<Resume />} />
           </Routes>
           
         </div>

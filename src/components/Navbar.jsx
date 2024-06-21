@@ -30,6 +30,12 @@ const Navbar = () => {
             Home
           </Link>
           <Link
+            to="/resume"
+            className="hover:text-blue-500 transform scale-90 transition duration-300  "
+          >
+            Resume
+          </Link>
+          <Link
             to="/about"
             className="hover:text-blue-500 transform scale-90 transition duration-300  "
           >
@@ -65,6 +71,7 @@ const Navbar = () => {
           >
             Contact
           </Link>
+          
         </div>
         <div className="hidden md:flex items-center justify-center gap-4 text-2xl text-white">
           <a
@@ -122,6 +129,13 @@ const Navbar = () => {
               className="hover:text-blue-500 transform hover:scale-110 transition duration-300"
             >
               Home
+            </Link>
+            <Link
+              to="/resume"
+              onClick={toggleMenu}
+              className="hover:text-blue-500 transform hover:scale-110 transition duration-300"
+            >
+              Resume
             </Link>
             <Link
               to="/about"
